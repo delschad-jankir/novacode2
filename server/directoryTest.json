@@ -1,0 +1,409 @@
+{ 
+    "Directory and File Structure": {
+        "directories": {
+            "app": {
+                "directories": {
+                    "(auth)": {
+                        "directories": {
+                            "(signin)": {
+                                "directories": {},
+                                "files": [
+                                    "page.tsx"
+                                ]
+                            }
+                        },
+                        "files": []
+                    },
+                    "api": {
+                        "directories": {
+                            "auth": {
+                                "directories": {
+                                    "[...nextauth]": {
+                                        "directories": {},
+                                        "files": [
+                                            "route.ts"
+                                        ]
+                                    }
+                                },
+                                "files": []
+                            },
+                            "uploadthing": {
+                                "directories": {},
+                                "files": [
+                                    "core.ts",
+                                    "route.ts"
+                                ]
+                            }
+                        },
+                        "files": []
+                    },
+                    "dashboard": {
+                        "directories": {
+                            "kanban": {
+                                "directories": {},
+                                "files": [
+                                    "page.tsx"
+                                ]
+                            },
+                            "profile": {
+                                "directories": {},
+                                "files": [
+                                    "page.tsx"
+                                ]
+                            },
+                            "projects": {
+                                "directories": {
+                                    "[projectID]": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    },
+                                    "new": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    }
+                                },
+                                "files": [
+                                    "page.tsx"
+                                ]
+                            },
+                            "user": {
+                                "directories": {
+                                    "[userId]": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    }
+                                },
+                                "files": [
+                                    "page.tsx"
+                                ]
+                            }
+                        },
+                        "files": [
+                            "layout.tsx",
+                            "page.tsx"
+                        ]
+                    },
+                    "projects": {
+                        "directories": {
+                            "[projectId]": {
+                                "directories": {
+                                    "build-process": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    },
+                                    "code-explorer": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx",
+                                            "test"
+                                        ]
+                                    },
+                                    "code-structure": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    },
+                                    "code-styles": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    },
+                                    "components": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    },
+                                    "general": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    },
+                                    "qa": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    },
+                                    "qa copy": {
+                                        "directories": {},
+                                        "files": [
+                                            "page.tsx"
+                                        ]
+                                    }
+                                },
+                                "files": [
+                                    "layout.tsx",
+                                    "page.tsx"
+                                ]
+                            },
+                            "new": {
+                                "directories": {},
+                                "files": [
+                                    "page.tsx"
+                                ]
+                            }
+                        },
+                        "files": [
+                            "layout.tsx",
+                            "page.tsx"
+                        ]
+                    }
+                },
+                "files": [
+                    "favicon.ico",
+                    "globals.css",
+                    "layout.tsx",
+                    "not-found.tsx"
+                ]
+            },
+            "components": {
+                "directories": {
+                    "charts": {
+                        "directories": {},
+                        "files": [
+                            "area-graph.tsx",
+                            "bar-graph.tsx",
+                            "pie-graph.tsx"
+                        ]
+                    },
+                    "forms": {
+                        "directories": {
+                            "user-profile-stepper": {
+                                "directories": {},
+                                "files": [
+                                    "create-profile.tsx"
+                                ]
+                            }
+                        },
+                        "files": [
+                            "employee-form.tsx",
+                            "product-form.tsx",
+                            "project-form.tsx",
+                            "user-auth-form.tsx",
+                            "user-login-form.tsx",
+                            "user-register-form.tsx"
+                        ]
+                    },
+                    "kanban": {
+                        "directories": {},
+                        "files": [
+                            "board-column.tsx",
+                            "column-action.tsx",
+                            "kanban-board.tsx",
+                            "new-section-dialog.tsx",
+                            "new-task-dialog.tsx",
+                            "task-card.tsx"
+                        ]
+                    },
+                    "layout": {
+                        "directories": {
+                            "ThemeToggle": {
+                                "directories": {},
+                                "files": [
+                                    "theme-provider.tsx",
+                                    "theme-toggle.tsx"
+                                ]
+                            }
+                        },
+                        "files": [
+                            "header.tsx",
+                            "mobile-sidebar.tsx",
+                            "page-container copy.tsx",
+                            "page-container.tsx",
+                            "providers.tsx",
+                            "sidebar.tsx",
+                            "user-nav.tsx"
+                        ]
+                    },
+                    "modal": {
+                        "directories": {},
+                        "files": [
+                            "alert-modal.tsx"
+                        ]
+                    },
+                    "tables": {
+                        "directories": {
+                            "employee-tables": {
+                                "directories": {},
+                                "files": [
+                                    "cell-action.tsx",
+                                    "columns.tsx",
+                                    "employee-table.tsx"
+                                ]
+                            },
+                            "project-tables": {
+                                "directories": {},
+                                "files": [
+                                    "cell-action.tsx",
+                                    "client.tsx",
+                                    "columns.tsx"
+                                ]
+                            },
+                            "user-tables": {
+                                "directories": {},
+                                "files": [
+                                    "cell-action.tsx",
+                                    "client.tsx",
+                                    "columns.tsx"
+                                ]
+                            }
+                        },
+                        "files": []
+                    },
+                    "ui": {
+                        "directories": {},
+                        "files": [
+                            "accordion.tsx",
+                            "alert-dialog.tsx",
+                            "alert.tsx",
+                            "avatar.tsx",
+                            "badge.tsx",
+                            "breadcrumb.tsx",
+                            "button.tsx",
+                            "calendar.tsx",
+                            "card.tsx",
+                            "chart.tsx",
+                            "checkbox.tsx",
+                            "collapsible.tsx",
+                            "data-table.tsx",
+                            "dialog.tsx",
+                            "dropdown-menu.tsx",
+                            "form.tsx",
+                            "fullScreenLoader.tsx",
+                            "heading.tsx",
+                            "input.tsx",
+                            "label.tsx",
+                            "modal.tsx",
+                            "popover.tsx",
+                            "scroll-area.tsx",
+                            "select.tsx",
+                            "separator.tsx",
+                            "sheet.tsx",
+                            "skeleton.tsx",
+                            "slider.tsx",
+                            "switch.tsx",
+                            "table.tsx",
+                            "tabs.tsx",
+                            "textarea.tsx",
+                            "toast.tsx",
+                            "toaster.tsx",
+                            "tooltip.tsx",
+                            "use-toast.ts"
+                        ]
+                    }
+                },
+                "files": [
+                    "ChatModal.tsx",
+                    "InputBar copy.tsx",
+                    "InputBar.tsx",
+                    "breadcrumbs.tsx",
+                    "dashboard-nav.tsx",
+                    "date-range-picker.tsx",
+                    "file-upload.tsx",
+                    "github-auth-button.tsx",
+                    "icons.tsx",
+                    "overview.tsx",
+                    "recent-sales.tsx"
+                ]
+            },
+            "constants": {
+                "directories": {},
+                "files": [
+                    "data.ts"
+                ]
+            },
+            "context": {
+                "directories": {},
+                "files": [
+                    "RowDataContext.tsx"
+                ]
+            },
+            "hooks": {
+                "directories": {},
+                "files": [
+                    "useMultistepForm.tsx",
+                    "useSidebar.tsx"
+                ]
+            },
+            "lib": {
+                "directories": {},
+                "files": [
+                    "form-schema.ts",
+                    "store.ts",
+                    "utils.ts"
+                ]
+            },
+            "public": {
+                "directories": {
+                    "markdownTest": {
+                        "directories": {},
+                        "files": [
+                            "build_and_deployment.md",
+                            "code_structure.md",
+                            "components_and_modules.md",
+                            "general.md"
+                        ]
+                    }
+                },
+                "files": [
+                    "auth.gif",
+                    "loading.gif",
+                    "next.svg",
+                    "vercel.svg"
+                ]
+            },
+            "server": {
+                "directories": {},
+                "files": [
+                    "firebaseKey.json",
+                    "gcloudKey.json",
+                    "package-lock.json",
+                    "package.json",
+                    "server.js"
+                ]
+            },
+            "types": {
+                "directories": {},
+                "files": [
+                    "index.ts",
+                    "next-auth.d.ts"
+                ]
+            }
+        },
+        "files": [
+            ".eslintrc.json",
+            ".gitignore",
+            ".prettierrc",
+            "LICENSE",
+            "README.md",
+            "auth.config.ts",
+            "auth.ts",
+            "components.json",
+            "env.example.txt",
+            "env.local",
+            "firebaseConfig.ts",
+            "middleware.ts",
+            "next-env.d.ts",
+            "next.config.js",
+            "package-lock.json",
+            "package.json",
+            "postcss.config.js",
+            "service-key.json",
+            "storageClient.js",
+            "tailwind.config.js",
+            "tsconfig.json"
+        ]
+    }
+}
